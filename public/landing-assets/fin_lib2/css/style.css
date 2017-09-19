@@ -1,0 +1,149 @@
+html {
+	position:relative;
+	min-height:100%;
+}
+body {
+	padding:0;
+	margin:0px;
+	background:#fff;
+}
+ul {
+	list-style:none;
+}
+th {
+	text-align:center;
+	margin:0;
+}
+body a {
+	text-decoration:none;
+	outline:none;
+}
+body a:hover, body a:focus {
+	text-decoration:none;
+	outline:none;
+}
+select {
+	outline:none;
+}
+a img {
+	border:none;
+}
+img {
+	border:0px;
+}
+p {
+	padding:0;
+	margin:0;
+}
+h1, h2, h3, h4, ul, p {
+	padding:0;
+	margin:0;
+}
+textarea {
+	resize:none;
+}
+input::-moz-placeholder {
+opacity:1;
+}
+/*input[placeholder], [placeholder], *[placeholder] { font:14px 'OpenSansRegular'; color:#999999!important; font-weight:normal;}*/
+.clr {
+	clear:both;
+	height:0px;
+}
+::-moz-selection {
+    background: #b3d4fc; color:#000;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc; color:#000;
+    text-shadow: none;
+}
+.shwdow-part {
+	width:100%;
+	float:left;
+	box-shadow:0 0 2px rgba(0, 0, 0, .20);
+}
+header {
+	width:100%;
+	float:left;
+	background-color: #fff;
+	padding: 25px 0; 
+}
+header h1 { width:100%; float:left; text-align:center; font:300 50px/50px "open sans"; color:#404040;}
+header h2 { width:100%; float:left; text-align:center; font:300 24px/50px "open sans"; color:#404040;}
+
+.main-content { width:100%; float:left; background:#ebebeb -moz-linear-gradient(center top , #dedede 0%, #ebebeb 3%, #ebebeb 97%, #dedede 100%) repeat scroll 0 0; padding:40px 0;}
+.main-content i { width:100%; float:left; text-align:center; font-size:120px; line-height:120px; color:#f68b1f;}
+.main-content h1 { width:100%; float:left; text-align:center; font:400 30px/30px "open sans"; color:#404040; margin:20px 0 0;}
+.main-content p { width:100%; float:left; text-align:center; font:400 16px/28px "open sans"; color:#404040; margin:20px 0 0; padding:0 100px;}
+
+.cepcha-sec { width:100%; float:left; padding:40px 0;}
+.cepcha-sec i { width:100%; float:left; text-align:center; font-size:120px; line-height:120px; color:#404040;}
+.cepcha-sec h1 { width:100%; float:left; text-align:center; font:400 30px/30px "open sans"; color:#404040; margin:20px 0 0;}
+.cepcha-sec p { width:100%; float:left; text-align:center; font:400 16px/28px "open sans"; color:#404040; margin:20px 0; padding:0 150px;}
+
+.form-sec { width:100%; float:left;}
+.form-sec ul { width:600px; display:table; margin:0 auto; padding:0;}
+.form-sec ul li { width:49%; float:left; margin:0 2% 20px 0;}
+.form-sec ul li:nth-child(even) { margin:0 0 20px; float:right;}
+.form-sec ul li input { width:100%; float:left; height:53px; padding:10px; font:300 20px/53px "open sans"; color:#404040; background:#ebebeb; border:0px solid #515151; border-radius:5px; box-shadow:0px 1px 1px #888 inset;}
+.form-sec ul li #country { width:100%; float:left; height:53px; padding:10px; font:300 20px/53px "open sans"; color:#404040; background:#ebebeb; border:0px solid #515151; box-shadow:0px 1px 1px #888 inset; border-radius:5px;}
+.form-sec ul li input#prefix { width:35%; float:left; text-align:center;}
+.form-sec ul li input#phone { width:63%; float:right;}
+.form-sec ul li input.submit { height:58px; width:240px; float:none; display:table; margin:0 auto; box-shadow:none; text-align:center; background:#f68b1f; line-height:52px; border:0; color:#fff; font:400 24px/53px "open sans"; padding:0; text-transform:uppercase;}
+.form-sec ul li input.submit:hover { background:#e2780d;}
+.form-sec ul li.full-width { width:100%; margin:0;}
+
+.checkboxes { width:100%; float:left; position:relative;}
+.checkboxes label { width:100%;  margin:0; text-align:left; font:400 16px/16px 'open sans' !important;; color:#404040 !important; float:left; cursor:pointer;}
+.has-js .label_check,
+.has-js .label_radio    { padding-left: 25px; margin:20px 0 0;}
+.has-js .label_radio    { background: url(radio-off.png) no-repeat; min-height:20px; }
+.has-js .label_check    { background: url(../img/check-off.png) top left no-repeat;  min-height:20px;  }
+.has-js label.c_on      { background: url(../img/check-on.png) top left  no-repeat;  min-height:20px;}
+.has-js label.r_on      { background: url(radio-on.png) no-repeat;  height:18px;}
+.has-js .label_check input,
+.has-js .label_radio input  { position: absolute; left: -9999px; }
+
+
+.inner-body { background:#000 url(../img/money-bg.jpg) top center no-repeat;}
+.inner-content { width:670px; display:table; margin:0 auto;}
+.inner-content h1 { width:100%; float:left; background:#111111; margin:30px 0; text-align:center; font:700 32px/40px "open sans"; color:#fff; padding:5px 0;}
+.inner-content h1 strong { color:#ff0103;}
+.inner-content h1 span { color:#fffd08;}
+.inner-content h2 { width:100%; float:left; background:url(../img/vol1.png) 0 50% no-repeat , url(../img/vol2.png) 100% 50% no-repeat; margin:0; text-align:center; font:400 italic 17px/36px "open sans"; color:#fff;}
+.inner-content h2 span { color:#f2c202;}
+.main-vedeo { width:100%; float:left; margin:30px 0;}
+.video { width:100%; float:left; height:auto;}
+.inner-content h3 { width:100%; float:left; text-align:center; font:30px/36px "Times New Roman", Times, serif; color:#fff; font-weight:bold;}
+.inner-content h3 span.avail {
+    background:#464646;
+    border-radius: 3px;
+    font-size: 38px;
+    padding: 0 5px;
+    position: relative;
+}
+.inner-content h3 span.avail::before {
+    background: black none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.butns { width:100%; float:left; margin:20px 0;}
+.butns a { display:table; margin:0 auto;}
+.butns a:hover { opacity:.9;}
+.seals { width:100%; float:left; margin:30px 0 100px;}
+.seals img { display:block; margin:0 auto;}
+
+ul.links { display:table; margin:0 auto;}
+ul.links li { float:left; margin:0 5px;}
+ul.links li a {  color: #fff; font-family: arial; font-size: 13px; text-decoration: underline;}
+ul.links li a:hover { text-decoration:none;}
+.inner-footer { width:100%; float:left; margin:25px 0 15px;}
+.inner-footer p { width:100%; float:left; font:14px/22px "open sans"; color:#707070; text-align:center;}
+
+ .widget widget_text .abcd { font-size:800px; color:blue; }

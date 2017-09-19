@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1200px) {
+.container { width:960px;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+/*--index page--*/  
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+/*--index page--*/  
+.seals { margin:20px 0 30px;}
+.inner-footer p { font-size:13px;}
+}
+@media (max-width: 767px) {
+/*--index page--*/
+.inner-content { width:100%; float:left;}
+.inner-content h1 { font-size:22px; line-height:32px; margin:20px 0;}
+.inner-content h2 { font-size:13px; background-size:30px;}
+.main-vedeo { margin:20px 0;}
+.butns a { width:70%;}
+.butns a img { width:100%; height:auto;}
+ul.links li { margin:0 2px;}
+ul.links li a { font-size:12px;}
+.seals { margin:20px 0 30px;}
+.inner-footer p { font-size:13px; line-height:20px;}
+} 
+@media (max-width: 480px) {
+/*--index page--*/
+.inner-content h1 { font-size:14px; line-height:24px; margin:15px 0;}
+.inner-content h2 { font-size:13px; line-height:20px; background-size:30px; background:none;}
+.main-vedeo { margin:15px 0;}
+.seals img { width:94%;}
+.inner-content h3 { font-size:18px; line-height:26px;}
+.inner-content h3 span.avail { font-size:28px;}
+.butns { margin:15px 0;}
+ul.links li { margin:0 5px;}
+ul.links li a { font-size:11px;}
+.seals { margin:10px 0 20px;}
+.inner-footer { margin:15px 0;}
+.inner-footer p { font-size:12px;}
+}
+@media (max-width: 360px) {
+/*--index page--*/
+}
+@media (max-width: 320px) { 
+
+/*---- Countdown ----*/
+}

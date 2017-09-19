@@ -1,0 +1,472 @@
+html {
+	position:relative;
+	min-height:100%;
+}
+body {
+	padding:0;
+	margin:0px;
+	background:#fff;
+}
+ul {
+	list-style:none;
+}
+th {
+	text-align:center;
+	margin:0;
+}
+body a {
+	text-decoration:none;
+	outline:none;
+}
+body a:hover, body a:focus {
+	text-decoration:none;
+	outline:none;
+}
+select {
+	outline:none;
+}
+a img {
+	border:none;
+}
+img {
+	border:0px;
+}
+p {
+	padding:0;
+	margin:0;
+}
+h1, h2, h3, h4, ul, p {
+	padding:0;
+	margin:0;
+}
+textarea {
+	resize:none;
+}
+input::-moz-placeholder {
+opacity:1;
+}
+/*input[placeholder], [placeholder], *[placeholder] { font:14px 'OpenSansRegular'; color:#999999!important; font-weight:normal;}*/
+.clr {
+	clear:both;
+	height:0px;
+}
+::-moz-selection {
+    background: #b3d4fc; color:#000;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc; color:#000;
+    text-shadow: none;
+}
+body {
+	background-image: url("../images/money-bg.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	margin: 30px 0 0;
+}
+.style2 {
+	color: #FF0000;
+	font-size: 36px;
+}
+.style3 {
+	color: #FFFF00;
+	font-size: 36px;
+}
+.style4 {
+	color: #FFFFFF
+}
+.style10, .account-form form input[type="submit"] {
+	background: #444 none repeat scroll 0 0;
+	border: 1px solid #000;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4) inset;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Open Sans", sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 35px;
+	margin: 0 0 15px;
+	transition: all 400ms ease-in-out 0.0s;
+ -o- transition: all 400ms ease-in-out 0.0s;
+ -ms- transition: all 400ms ease-in-out 0.0s;
+ -webkit- transition: all 400ms ease-in-out 0.0s;
+ -moz- transition: all 400ms ease-in-out 0.0s;
+}
+.style10:hover, .account-form form input[type="submit"]:hover {
+	background: #22655f;
+}
+.style10 > img {
+	padding: 0 0 0 10px;
+	vertical-align: sub;
+}
+.style7.style8.style9 {
+	color: #FFF;
+}
+.volume-up {
+	background-color: #333;
+	background-image: url("../images/dotted.png"), url("../images/dotted.png");
+	background-position: 0 5px, center 93%;
+	background-repeat: repeat-x;
+	background-size: 10px auto;
+	margin: 0 0 15px;
+	padding: 10px 0;
+	position: relative;
+}
+.boaz-video {
+	background-image: url("../images/device-ipad.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 793px auto;
+	margin: 50px auto 40px;
+	max-width: 1000px;
+	width: 100%;
+	padding: 68px 0 79px;
+}
+video {
+	border: 0.5px solid #fff;
+	height: 390px;
+}
+.create-new-account {
+	background-color: #ddd;
+	background-image: url("../images/mozaic2.png");
+	margin: 0 0 30px;
+	overflow: hidden;
+	padding: 25px 0;
+}
+.account-create {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 100%;
+}
+.account-form {
+	float: left;
+	margin: 40px 0 0;
+	text-align: left;
+	width: 45%;
+}
+.account-form > iframe {
+	width: 100%;
+}
+.account-form-create {
+	float: left;
+	padding: 0 30px 0 0;
+	width: 52%;
+}
+.account-form-create img {
+	width: 100%;
+}
+.account-form form .field input, .account-form form .field select {
+	border: 1px solid rgba(0, 0, 0, 0.28);
+	color: #999;
+	font-family: "Open Sans", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0 0 15px;
+	padding: 0 15px;
+	width: 100%;
+}
+.select-countary, .phone {
+	float: left;
+	width: 50%;
+}
+.select-countary {
+	padding-right: 15px;
+}
+.account-form form .field select option {
+	padding-left: 15px;
+}
+.account-form h2 {
+	color: #666;
+	font-size: 34px;
+	font-weight: 300;
+	padding: 0 0 25px;
+}
+.account-form h2 > img {
+	vertical-align: sub;
+}
+.account-form form input[type="submit"] {
+	line-height: 1;
+}
+.checkout {
+	display: inline-block;
+	margin: 20px 0 35px;
+	width: 100%;
+}
+footer {
+	background: #444 none repeat scroll 0 0;
+	padding: 15px 0;
+}
+footer p {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 100;
+	max-width: 1066px;
+	width: 100%;
+}
+.disclaimer {
+	color: #e5b804;
+	font-size: 17px;
+	font-weight: 600;
+}
+.table-layout {
+	margin: 0 0 30px;
+}
+.timer {
+	background-color: #fff;
+	background-image: url("../images/watchz.png");
+	background-position: right top;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding: 40px 0;
+	width: 100%;
+}
+.timer > p {
+	font-size: 25px;
+	font-weight: 300;
+	max-width: 1000px;
+	width: 100%;
+}
+.hits-zero {
+	color: orange;
+	display: inline-block;
+	font-size: 35px;
+	font-weight: 700;
+	padding: 0 0 10px;
+}
+ul.spin-timing {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+ul.spin-timing li {
+	display: inline-block;
+	margin: 15px 12px 0;
+}
+span.hours {
+	background: #444 none repeat scroll 0 0;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-size: 37px;
+	height: 75px;
+	line-height: 71px;
+	width: 75px;
+}
+.time-hours {
+	color: #444;
+	font-weight: 400;
+	margin: 9px 0 0;
+}
+.form-sec { width:100%; float:left;}
+.form-sec ul { width:600px; display:table; margin:0 auto; padding:0;}
+.form-sec ul li { width:49%; float:left; margin:0 2% 20px 0;}
+.form-sec ul li:nth-child(even) { margin:0 0 20px; float:right;}
+.form-sec ul li input { width:100%; float:left; height:53px; padding:10px; font:300 20px/53px "open sans"; color:#404040; background:#ebebeb; border:0px solid #515151; border-radius:5px; box-shadow:0px 1px 1px #888 inset;}
+.form-sec ul li #country { width:100%; float:left; height:53px; padding:10px; font:300 20px/53px "open sans"; color:#404040; background:#ebebeb; border:0px solid #515151; box-shadow:0px 1px 1px #888 inset; border-radius:5px;}
+.form-sec ul li input#prefix { width:35%; float:left; text-align:center;}
+/*.form-sec ul li input#phone { width:63%; float:right;}*/
+.form-sec ul li input.submit { height:58px; width:240px; float:none; display:table; margin:0 auto; box-shadow:none; text-align:center; background:#f68b1f; line-height:52px; border:0; color:#fff; font:400 24px/53px "open sans"; padding:0; text-transform:uppercase;}
+.form-sec ul li input.submit:hover { background:#e2780d;}
+.form-sec ul li.full-width { width:100%; margin:0;}
+
+.checkboxes { width:100%; float:left; position:relative; border:0;}
+.checkboxes label { width:100%;  margin:0; text-align:left; font:400 16px/16px 'open sans' !important;; color:#404040 !important; float:left; cursor:pointer;}
+.has-js .label_check,
+.has-js .label_radio    { padding-left: 25px; margin:20px 0 0;}
+/*.has-js .label_radio    { background: url() no-repeat; min-height:20px; }*/
+.has-js .label_check    { background: url(../img/check-off.png) top left no-repeat;  min-height:20px;  }
+.has-js label.c_on      { background: url(../img/check-on.png) top left  no-repeat;  min-height:20px;}
+/*.has-js label.r_on      { background: url(radio-on.png) no-repeat;  height:18px;}*/
+.has-js .label_check input,
+.has-js .label_radio input  { position: absolute; left: -9999px; }
+
+@media (max-width:1199px) {
+ img {
+max-width:100%;
+}
+ .checkout, footer, .table-layout, .create-new-account, .boaz-video, .style1 p {
+padding: 0 15px;
+}
+ .boaz-video {
+background-size: 720px auto;
+padding-bottom: 180px;
+}
+ .boaz-video video {
+height: auto;
+position: relative;
+top: 62px;
+width: 639px;
+}
+}
+@media (max-width: 991px) {
+ .account-form h2 {
+font-size: 29px;
+}
+ .account-form h2 > img {
+max-width:35px;
+}
+ .account-form {
+margin: 15px 0 0;
+}
+ .account-form h2 {
+padding: 0 0 15px;
+}
+ .account-form form .field input, .account-form form .field select {
+margin: 0 0 10px;
+}
+ .account-form form input[type="submit"] {
+font-size: 16px;
+height: 37px;
+line-height: 33px;
+padding: 0 15px;
+}
+ footer {
+padding: 15px;
+}
+ .boaz-video {
+}
+ .boaz-video video {
+}
+ .volume-up img {
+height: auto;
+}
+}
+@media (max-width:767px) {
+ .boaz-video {
+background-size: 620px auto;
+padding-bottom: 135px;
+}
+ .boaz-video video {
+width: 529px;
+}
+ .style10, .account-form form input[type="submit"] {
+font-size: 17px;
+height: auto;
+}
+ .style10 > img {
+max-width: 24px;
+padding: 0 0 0 5px;
+}
+ .checkout {
+margin: 0 0 15px;
+}
+.form-sec ul { width:100%; float:left;}
+}
+@media (max-width:640px) {
+ .boaz-video {
+background-size: 460px auto;
+padding-bottom: 85px;
+}
+ .boaz-video video {
+width: 400px;
+top: 42px;
+}
+ .account-form-create, .style10 > img {
+display:none;
+}
+ .account-form {
+width: 100%;
+}
+ .style10, .account-form form input[type="submit"] {
+font-size: 14px;
+height: 40px;
+line-height: 1;
+padding: 0 13px;
+}
+ span.style10 {
+line-height: 2.3;
+}
+.form-sec ul { width:100%; float:left;}
+}
+@media (max-width:480px) {
+ .boaz-video {
+background-size: 300px auto;
+padding-bottom: 85px;
+}
+ .boaz-video video {
+width: 263px;
+top: 27px;
+}
+ .account-form h2 {
+font-size: 25px;
+}
+ .account-form h2 > img {
+max-width: 27px;
+}
+.form-sec ul  { width:100%; float:left;}
+.form-sec ul li { width:100%; float:left; margin:0 0 15px;}
+}
+.popup {
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 30%;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+.popup h2 {
+	margin-top: 0;
+	color: #333;
+	font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+.popup .close:hover {
+	color: orange;
+}
+.popup .content {
+	max-height: 30%;
+	overflow: auto;
+}
+.overlay {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.intl-tel-input {
+	position: relative;
+	display: block;
+	margin-top: 0px!important;
+	width:100%!important;
+}
+
+.intl-tel-input.separate-dial-code .selected-dial-code {
+	display: table-cell;
+	vertical-align: middle;
+	 padding-left: 28px!important;
+}

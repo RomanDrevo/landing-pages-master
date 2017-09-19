@@ -1,0 +1,64 @@
+@media only screen and (max-width: 667px) {
+
+    section#home.video-section {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    section#home h1 {
+        display: none;
+    }
+
+    h1 {
+        margin: 10px 0 10px 0;
+        font-size: 20px;
+    }
+
+    .video-container {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    section#register-section.register-section {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .button-wrapper {
+        margin-bottom: 10px;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 98%;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    /********/
+    section#social {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    section h1 + h2 {
+        margin-top: 0px;
+    }
+
+    .motivation {
+        padding-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+
+    .steps {
+        padding-top: 10px;
+    }
+
+    .wrapper {
+        padding: 0 10px;
+    }
+}
+

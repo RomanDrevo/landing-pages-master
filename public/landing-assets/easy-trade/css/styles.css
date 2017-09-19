@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
+
+html{
+	background: url(../images/easy.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body{
+	background: transparent;
+	font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.right{
+	text-align: left;
+}
+
+.text{
+	margin-top: 210px;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+
+.span1{
+	font-size: 48px;
+}
+
+.span2{
+	font-size: 48px;
+	font-weight: 300;
+}
+
+h1 span{
+
+}
+
+.header-span{
+	font-weight: 700;
+	font-size: 40px;
+	color: #D3D5D9;
+}
+
+.text p{
+	font-size: 18px;
+	font-weight: 400;
+	width: 70%;
+	/*margin: 0px auto;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.clients{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.number{
+	font-size: 36px;
+	color: #529CCF;
+	font-weight: 700;
+}
+
+input{
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+input[type=submit]{
+	background: #58A7DC;
+	color: #FFFFFF;
+	font-size: 23px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+.logo-row {
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.logo-row img {
+	width: 15%;
+}
+
+.logo-row img.seventy-two {
+	width: 10%;
+}
+
+
+@media (max-width: 1100px) and (min-width: 768px){
+	h1{
+		font-size: 40px;
+		margin-top: -100px;
+	}
+
+	.span1{
+		font-size: 40px;
+	}
+
+	.span2{
+		font-size: 45px;
+	}
+
+	.text p{
+		font-size: 22px;
+	}
+
+}
+
+@media (max-width: 767px){
+	h1{
+		font-size: 18px;
+		margin-top: -100px;
+	}
+
+	.span1{
+		font-size: 30px;
+	}
+
+	.span2{
+		font-size: 35px;
+	}
+
+	.text p{
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.header-span {
+		font-weight: 700;
+		font-size: 24px;
+		color: #D3D5D9;
+	}
+
+}
+
+
+@media (max-width: 768px){
+	h1{
+		font-size: 35px;
+		margin-top: -100px;
+	}
+	.text p{
+		font-size: 18px;
+	}
+
+	.text{
+		margin-top: 120px;
+	}
+
+	.logo-row img {
+		width: 35%;
+	}
+
+	.logo-row img.seventy-two {
+		width: 35%;
+	}
+
+}
+
+
+
+@media (max-width: 500px) {
+	.logo-row img {
+		width: 95%;
+	}
+
+	.logo-row img.seventy-two {
+		width: 95%;
+	}
+}

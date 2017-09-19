@@ -1,0 +1,5 @@
+// On submit: check if an email exists, and save it as a lead in our database.
+
+//Add validation to landing pages (Server side!!!)
+
+//

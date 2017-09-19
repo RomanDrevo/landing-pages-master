@@ -1,0 +1,12 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+gpstrader.co	TRUE	/	FALSE	1999999999	p	572c4a10a7042
+gpstrader.co	TRUE	/	FALSE	1999999999	cp	deleted
+gpstrader.co	TRUE	/	FALSE	1999999999	rp	deleted
+gpstrader.co	TRUE	/	FALSE	1999999999	pp	deleted
+gpstrader.co	TRUE	/	FALSE	1999999999	bp	deleted
+gpstrader.co	TRUE	/	FALSE	1999999999	xp	deleted
+gpstrader.co	TRUE	/	FALSE	1999999999	yp	deleted
+gpstrader.co	TRUE	/	FALSE	1999999999	zp	deleted
+gpstrader.co	TRUE	/	FALSE	1999999999	click_id	deleted
+

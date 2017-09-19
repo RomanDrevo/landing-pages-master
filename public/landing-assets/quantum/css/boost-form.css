@@ -1,0 +1,165 @@
+/* ==========================================================================
+						Form styles
+========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+html, body {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+}
+
+.loader-color {
+
+}
+
+.loader {
+}
+
+.names {
+}
+
+#FirstName-container {
+    width: 100%;
+    display: inline-block;
+}
+
+#LastName-container {
+    width: 49.5%;
+    display: inline-block;
+    float: right;
+}
+
+#email-container {
+
+}
+
+#password-container {
+
+}
+
+#regBtn-container {
+
+}
+
+#login_password {
+
+}
+
+#login_email {
+
+}
+
+#regStatus {
+
+}
+
+#statusMsg {
+
+}
+
+#boostForm {
+
+}
+
+#SplashScreen {
+
+}
+
+#autoSubmitScript {
+
+}
+
+#boostForm {
+
+}
+
+#FirstName {
+
+}
+
+#LastName {
+
+}
+
+#email {
+}
+
+#password {
+}
+
+#kid {
+
+}
+
+#phone {
+}
+
+#regBtn {
+    font-size: 20px;
+}
+@media screen and (max-width: 500px)
+{
+    #regBtn {
+        font-size: 13px;
+    }
+}
+form label.error {
+    padding: 3px 3px 0 3px;
+    position: absolute;
+    right: 0;
+    margin-top: -24px;
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+}
+
+form form-control.error {
+}
+
+.phone-right-side label.error {
+    right: 1px;
+}
+
+.buttons-style {
+    background: #ffd954;
+    background: -moz-linear-gradient(to bottom, #428bca 0%, rgb(0, 173, 239) 100%);
+    background: -webkit-linear-gradient(to bottom, #428bca 0%, rgb(0, 173, 239) 100%);
+    background: linear-gradient(to bottom, #428bca 0%, rgb(0, 173, 239) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#428bca', endColorstr='#428bca', GradientType=0);
+    color: #fff;
+    border-radius: 10px !important;
+    min-height: 60px;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 20px;
+}
+
+.buttons-style:hover {
+    color: #000;
+    opacity: 0.8;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+.icons {
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    background-color: #fffae4 !important;
+    text-align: center;
+    min-height: 55px;
+    color: #727272;
+    font: 300 20px "Lato";
+}
+
+@media screen and (max-width: 768px) {
+    .buttons-style {
+        font-size: 14px;
+    }
+}

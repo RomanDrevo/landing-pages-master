@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+11:55:25	1710/1710	---MCZ	404	error ('Not%20Found')	text/html	date:Tue,%2017%20Nov%202015%2009:55:26%20GMT	http://30daychange.co/robots.txt		(from )
+11:55:25	19263/19263	---MCZ	200	added ('OK')	text/html	date:Tue,%2017%20Nov%202015%2009:55:27%20GMT	http://30daychange.co/	C:/Users/user/Desktop/two_tow/30daychange.co/index.html	(from )

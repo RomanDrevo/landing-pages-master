@@ -1,0 +1,12 @@
+@media (max-width:400px)
+{
+	.map_wrapper .map_item .content .profit span
+	{
+		font-size:30px;
+	}
+	.map_wrapper .map_item
+	{
+		width:90%;
+		max-width:300px;
+	}
+}

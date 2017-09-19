@@ -1,0 +1,36 @@
+[04-Jul-2016 12:44:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/lpthetradingdonk/public_html/lp/includes/country.php on line 4
+[04-Jul-2016 12:44:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/lpthetradingdonk/public_html/lp/includes/country.php on line 5
+[07-Jul-2016 10:35:36 UTC] PHP Warning:  include(../../functions/validation2S.php): failed to open stream: No such file or directory in /home/lpthetradingdonk/public_html/lp/pages/get_instant_access/index.php on line 1102
+[07-Jul-2016 10:35:36 UTC] PHP Warning:  include(): Failed opening '../../functions/validation2S.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/lpthetradingdonk/public_html/lp/pages/get_instant_access/index.php on line 1102
+[07-Jul-2016 10:35:43 UTC] PHP Warning:  include(../../functions/validation2S.php): failed to open stream: No such file or directory in /home/lpthetradingdonk/public_html/lp/pages/get_instant_access/index.php on line 1102
+[07-Jul-2016 10:35:43 UTC] PHP Warning:  include(): Failed opening '../../functions/validation2S.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/lpthetradingdonk/public_html/lp/pages/get_instant_access/index.php on line 1102
+[10-Jul-2016 08:02:05 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/cpl/public_html/lp/includes/api_db_connection.php on line 14
+[10-Jul-2016 08:03:38 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/cpl/public_html/lp/includes/api_db_connection.php on line 14
+[10-Jul-2016 08:04:47 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/cpl/public_html/lp/includes/api_db_connection.php on line 14
+[10-Jul-2016 08:05:09 UTC] PHP Fatal error:  Call to undefined function mysqli_query() in /home/cpl/public_html/lp/includes/country.php on line 4
+[10-Jul-2016 08:05:22 UTC] PHP Fatal error:  Call to undefined function mysqli_query() in /home/cpl/public_html/lp/includes/country.php on line 4
+[10-Jul-2016 08:07:18 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/cpl/public_html/lp/includes/api_db_connection.php on line 14
+[10-Jul-2016 08:08:09 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/cpl/public_html/lp/includes/api_db_connection.php on line 14
+[10-Jul-2016 08:08:11 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/cpl/public_html/lp/includes/api_db_connection.php on line 14
+[10-Jul-2016 08:08:13 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/cpl/public_html/lp/includes/api_db_connection.php on line 14
+[10-Jul-2016 08:08:22 UTC] PHP Fatal error:  Call to undefined function mysqli_query() in /home/cpl/public_html/lp/includes/country.php on line 4
+[10-Jul-2016 08:09:00 UTC] PHP Fatal error:  Call to undefined function mysqli_close() in /home/cpl/public_html/lp/includes/footer.php on line 1
+[10-Jul-2016 08:09:44 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/cpl/public_html/lp/includes/api_db_connection.php on line 14
+[10-Jul-2016 08:10:15 UTC] PHP Fatal error:  Call to undefined function mysqli_query() in /home/cpl/public_html/lp/includes/country.php on line 4
+[10-Jul-2016 08:15:32 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/cpl/public_html/lp/includes/api_db_connection.php on line 14
+[10-Jul-2016 08:17:40 UTC] PHP Fatal error:  Call to undefined function mysqli_query() in /home/cpl/public_html/lp/includes/country.php on line 4
+[10-Jul-2016 08:19:35 UTC] PHP Fatal error:  Call to undefined function mysqli_close() in /home/cpl/public_html/lp/includes/footer.php on line 1
+[10-Jul-2016 08:21:09 UTC] PHP Fatal error:  Call to undefined function mysqli_close() in /home/cpl/public_html/lp/includes/footer.php on line 1
+[10-Jul-2016 08:21:12 UTC] PHP Fatal error:  Call to undefined function mysqli_close() in /home/cpl/public_html/lp/includes/footer.php on line 1
+[10-Jul-2016 08:21:35 UTC] PHP Fatal error:  Call to undefined function mysqli_close() in /home/cpl/public_html/lp/includes/footer.php on line 1
+[10-Jul-2016 08:24:52 UTC] PHP Fatal error:  Call to undefined function mysqli_close() in /home/cpl/public_html/lp/includes/footer.php on line 1
+[11-Jul-2016 21:48:27 UTC] PHP Warning:  urlencode() expects parameter 1 to be string, object given in /home/cpl/public_html/lp/functions/get_ip_info.php on line 7
+[11-Jul-2016 21:48:27 UTC] PHP Catchable fatal error:  Object of class IP2LocationRecord could not be converted to string in /home/cpl/public_html/lp/includes/hidden_fields.php on line 10
+[13-Jul-2016 10:40:56 America/New_York] PHP Warning:  urlencode() expects parameter 1 to be string, object given in /home/waltypqc/public_html/besttradingoffers.com/lp/functions/get_ip_info.php on line 7
+[13-Jul-2016 10:40:57 America/New_York] PHP Catchable fatal error:  Object of class IP2LocationRecord could not be converted to string in /home/waltypqc/public_html/besttradingoffers.com/lp/includes/hidden_fields.php on line 10
+[14-Jul-2016 11:00:13 America/New_York] PHP Warning:  urlencode() expects parameter 1 to be string, object given in /home/waltypqc/public_html/besttradingoffers.com/lp/functions/get_ip_info.php on line 7
+[14-Jul-2016 11:00:13 America/New_York] PHP Catchable fatal error:  Object of class IP2LocationRecord could not be converted to string in /home/waltypqc/public_html/besttradingoffers.com/lp/includes/hidden_fields.php on line 10
+[15-Jul-2016 04:06:41 America/New_York] PHP Warning:  urlencode() expects parameter 1 to be string, object given in /home/waltypqc/public_html/besttradingoffers.com/lp/functions/get_ip_info.php on line 7
+[15-Jul-2016 04:06:41 America/New_York] PHP Catchable fatal error:  Object of class IP2LocationRecord could not be converted to string in /home/waltypqc/public_html/besttradingoffers.com/lp/includes/hidden_fields.php on line 10
+[17-Jul-2016 05:02:30 America/New_York] PHP Warning:  urlencode() expects parameter 1 to be string, object given in /home/waltypqc/public_html/besttradingoffers.com/lp/functions/get_ip_info.php on line 7
+[17-Jul-2016 05:02:30 America/New_York] PHP Catchable fatal error:  Object of class IP2LocationRecord could not be converted to string in /home/waltypqc/public_html/besttradingoffers.com/lp/includes/hidden_fields.php on line 10

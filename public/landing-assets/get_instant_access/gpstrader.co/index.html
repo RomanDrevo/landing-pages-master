@@ -1,0 +1,1175 @@
+ 
+
+
+  
+
+<!-- <h1 style="color:red;text-align: center;margin-top: 20%;">We go live Monday 9th at 00:01 CS Time</h1> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<!-- This site was created in Webflow. http://www.webflow.com-->
+
+<!-- Last Published: Sat May 07 2016 19:26:16 GMT+0000 (UTC) -->
+
+<html data-wf-site="57279aae9134bc281e428e60" data-wf-page="57279aae9134bc281e428e61">
+
+
+<!-- Mirrored from gpstrader.co/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Jul 2016 11:22:09 GMT -->
+<head>
+
+  <meta charset="utf-8">
+
+  <title>GPS Trader</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="generator" content="Webflow">
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+
+  <link rel="stylesheet" type="text/css" href="css/gpstrader.webflow.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <script src="../ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+
+  <script>
+
+    WebFont.load({
+
+      google: {
+
+        families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]
+
+      }
+
+    });
+
+  </script>
+
+  <script type="text/javascript" src="js/modernizr.js"></script>
+
+  <link rel="shortcut icon" type="image/x-icon" href="images/32.png">
+
+  <link rel="apple-touch-icon" href="images/256.png">
+
+  <style>
+
+	@media (max-width: 479px)
+
+	.popup {
+
+		position: fixed;
+
+		left: 0px;
+
+		top: 0px;
+
+		right: 0px;
+
+		bottom: 0px;
+
+		z-index: 350;
+
+		overflow: auto;
+
+		width: auto;
+
+		height: auto;
+
+		padding-top: 2px;
+
+	}
+
+	@media (max-width: 767px)
+
+	.popup {
+
+		position: fixed;
+
+		left: 0px;
+
+		top: 0px;
+
+		right: 0px;
+
+		bottom: 0px;
+
+		z-index: 400;
+
+		display: block;
+
+		overflow: auto;
+
+		width: auto;
+
+		height: auto;
+
+		margin-right: auto;
+
+		margin-left: auto;
+
+		background-image: url('images/mobilebg.jpg');
+
+		background-position: 50% 50%;
+
+		background-size: cover;
+
+	}
+
+	
+
+	@media (max-width: 479px)
+
+	.field-4 {
+
+		height: 22px;
+
+	}
+
+	@media (max-width: 991px)
+
+	.field-4 {
+
+		height: 36px;
+
+	}
+
+	.field-4 {
+
+		height: 45px;
+
+		margin-bottom: 4px;
+
+	}
+
+	
+
+	@media (max-width: 479px)
+
+	.popup-title {
+
+		margin-top: 5px;
+
+		margin-bottom: 5px;
+
+		font-size: 14px;
+
+		line-height: 18px;
+
+	}
+
+	@media (max-width: 767px)
+
+	.popup-title {
+
+		font-size: 16px;
+
+	}
+
+	@media (max-width: 991px)
+
+	.popup-title {
+
+		font-size: 21px;
+
+		line-height: 30px;
+
+	}
+
+	.popup-title {
+
+		margin-top: 0px;
+
+		margin-bottom: 20px;
+
+		color: #fff;
+
+		font-size: 26px;
+
+		line-height: 39px;
+
+		text-align: center;
+
+		text-shadow: 2px 2px 6px #000;
+
+	}	
+
+	.w-input, .w-select {
+
+		display: block;
+
+		width: 100%;
+
+		height: 38px;
+
+		padding: 8px 12px;
+
+		margin-bottom: 10px;
+
+		font-size: 14px;
+
+		line-height: 1.428571429;
+
+		color: #333333;
+
+		vertical-align: middle;
+
+		background-color: #ffffff;
+
+		border: 1px solid #cccccc;
+
+	}
+
+	input {
+
+		line-height: normal;
+
+	}	
+
+
+
+	.field:hover {
+
+		background-color: #fff;
+
+	}			
+
+  </style>
+
+  
+
+</head>
+
+
+<body class="body">
+
+
+
+
+<div class="modal fade bs-example-modal-lg popup" id="popup_div" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <a href="#" id="closePopUp" data-ix="close-popup" class="w-inline-block w-hidden-tiny x">
+      <div>X</div>
+    </a>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="w-section" >
+
+    
+
+    <div class="w-container">
+
+      <h1 class="popup-title"><span class="dName"></span> congratulations!  You've got 4 minutes to register and get our software. GPS Trader will profit for you $850 within the first hour.</h1>
+
+      <div class="w-row">
+
+        <div class="w-col w-col-8">
+
+          <div style="padding-top: 56.17021276595745%;" class="w-embed w-video">
+
+            <div id="memVID"></div>
+
+          </div>
+
+        </div>
+
+        <div class="w-col w-col-4">
+
+          <div class="w-form form">
+
+          <center><img id="wait1" src="inc/wait3.gif" style="display:none; vertical-align: middle; margin-left:auto; margin-right: auto; margin:auto; width:50%; height:auto;" /></center>
+
+            <form id="regform1" name="email-form-4" data-name="Email Form 4" method="post" >
+
+              <p style="display:none; color:red; background:yellow; font-weight:bold; text-align:center; margin-bottom:10px;" id="regerror1"></p>
+
+			  
+			<input type="hidden" name="p" value="572c4a10a7042" />
+<input type="hidden" name="prod" value="gpstrader" />
+
+<SELECT style="display:none" name="country"><OPTION VALUE=''>Select your country</OPTION><OPTION  VALUE='AF'>Afghanistan</OPTION><OPTION  VALUE='AL'>Albania</OPTION><OPTION  VALUE='DZ'>Algeria</OPTION><OPTION  VALUE='AS'>American Samoa</OPTION><OPTION  VALUE='AD'>Andorra</OPTION><OPTION  VALUE='AO'>Angola</OPTION><OPTION  VALUE='AI'>Anguilla</OPTION><OPTION  VALUE='AQ'>Antarctica</OPTION><OPTION  VALUE='AG'>Antigua and Barbuda</OPTION><OPTION  VALUE='AR'>Argentina</OPTION><OPTION  VALUE='AM'>Armenia</OPTION><OPTION  VALUE='AW'>Aruba</OPTION><OPTION  VALUE='AU'>Australia</OPTION><OPTION  VALUE='AT'>Austria</OPTION><OPTION  VALUE='AZ'>Azerbaijan</OPTION><OPTION  VALUE='BH'>Bahrain</OPTION><OPTION  VALUE='BD'>Bangladesh</OPTION><OPTION  VALUE='BB'>Barbados</OPTION><OPTION  VALUE='BY'>Belarus</OPTION><OPTION  VALUE='BE'>Belgium</OPTION><OPTION  VALUE='BZ'>Belize</OPTION><OPTION  VALUE='BJ'>Benin</OPTION><OPTION  VALUE='BM'>Bermuda</OPTION><OPTION  VALUE='BT'>Bhutan</OPTION><OPTION  VALUE='BO'>Bolivia</OPTION><OPTION  VALUE='BA'>Bosnia and Herzegovina</OPTION><OPTION  VALUE='BW'>Botswana</OPTION><OPTION  VALUE='BV'>Bouvet Island</OPTION><OPTION  VALUE='BR'>Brazil</OPTION><OPTION  VALUE='IO'>British Indian Ocean Territory</OPTION><OPTION  VALUE='VG'>British Virgin Islands</OPTION><OPTION  VALUE='BN'>Brunei</OPTION><OPTION  VALUE='BG'>Bulgaria</OPTION><OPTION  VALUE='BF'>Burkina Faso</OPTION><OPTION  VALUE='BI'>Burundi</OPTION><OPTION  VALUE='CI'>Cote D`Ivoire</OPTION><OPTION  VALUE='KH'>Cambodia</OPTION><OPTION  VALUE='CM'>Cameroon</OPTION><OPTION  VALUE='CA'>Canada</OPTION><OPTION  VALUE='CV'>Cape Verde</OPTION><OPTION  VALUE='KY'>Cayman Islands</OPTION><OPTION  VALUE='CF'>Central African Republic</OPTION><OPTION  VALUE='TD'>Chadddd</OPTION><OPTION  VALUE='CL'>Chile</OPTION><OPTION  VALUE='CN'>China</OPTION><OPTION  VALUE='CX'>Christmas Island</OPTION><OPTION  VALUE='CC'>Cocos (Keeling) Islands</OPTION><OPTION  VALUE='CO'>Colombia</OPTION><OPTION  VALUE='KM'>Comoros</OPTION><OPTION  VALUE='CG'>Congo</OPTION><OPTION  VALUE='CK'>Cook Islands</OPTION><OPTION  VALUE='CR'>Costa Rica</OPTION><OPTION  VALUE='HR'>Croatia</OPTION><OPTION  VALUE='CU'>Cuba</OPTION><OPTION  VALUE='CY'>Cyprus</OPTION><OPTION  VALUE='CZ'>Czech Republic</OPTION><OPTION  VALUE='CD'>Democratic Republic of the Congo</OPTION><OPTION  VALUE='DK'>Denmark</OPTION><OPTION  VALUE='DJ'>Djibouti</OPTION><OPTION  VALUE='DM'>Dominica</OPTION><OPTION  VALUE='DO'>Dominican Republic</OPTION><OPTION  VALUE='TP'>East Timor</OPTION><OPTION  VALUE='EC'>Ecuador</OPTION><OPTION  VALUE='EG'>Egypt</OPTION><OPTION  VALUE='SV'>El Salvador</OPTION><OPTION  VALUE='GQ'>Equatorial Guinea</OPTION><OPTION  VALUE='ER'>Eritrea</OPTION><OPTION  VALUE='EE'>Estonia</OPTION><OPTION  VALUE='ET'>Ethiopia</OPTION><OPTION  VALUE='FO'>Faeroe Islands</OPTION><OPTION  VALUE='FK'>Falkland Islands</OPTION><OPTION  VALUE='FJ'>Fiji</OPTION><OPTION  VALUE='FI'>Finland</OPTION><OPTION  VALUE='MK'>Former Yugoslav Republic of Macedonia</OPTION><OPTION  VALUE='FR'>France</OPTION><OPTION  VALUE='FX'>France, Metropolitan</OPTION><OPTION  VALUE='GF'>French Guiana</OPTION><OPTION  VALUE='PF'>French Polynesia</OPTION><OPTION  VALUE='TF'>French Southern Territories</OPTION><OPTION  VALUE='GA'>Gabon</OPTION><OPTION  VALUE='GE'>Georgia</OPTION><OPTION  VALUE='DE'>Germany</OPTION><OPTION  VALUE='GH'>Ghana</OPTION><OPTION  VALUE='GI'>Gibraltar</OPTION><OPTION  VALUE='GR'>Greece</OPTION><OPTION  VALUE='GL'>Greenland</OPTION><OPTION  VALUE='GD'>Grenada</OPTION><OPTION  VALUE='GP'>Guadeloupe</OPTION><OPTION  VALUE='GU'>Guam</OPTION><OPTION  VALUE='GT'>Guatemala</OPTION><OPTION  VALUE='GN'>Guinea</OPTION><OPTION  VALUE='GW'>Guinea-Bissau</OPTION><OPTION  VALUE='GY'>Guyana</OPTION><OPTION  VALUE='HT'>Haiti</OPTION><OPTION  VALUE='HM'>Heard and Mc Donald Islands</OPTION><OPTION  VALUE='HN'>Honduras</OPTION><OPTION  VALUE='HK'>Hong Kong</OPTION><OPTION  VALUE='HU'>Hungary</OPTION><OPTION  VALUE='IS'>Iceland</OPTION><OPTION  VALUE='IN'>India</OPTION><OPTION  VALUE='ID'>Indonesia</OPTION><OPTION  VALUE='IR'>Iran</OPTION><OPTION  VALUE='IQ'>Iraq</OPTION><OPTION  VALUE='IE'>Ireland</OPTION><OPTION selected VALUE='IL'>Israel</OPTION><OPTION  VALUE='IT'>Italy</OPTION><OPTION  VALUE='JM'>Jamaica</OPTION><OPTION  VALUE='JP'>Japan</OPTION><OPTION  VALUE='JO'>Jordan</OPTION><OPTION  VALUE='KZ'>Kazakhstan</OPTION><OPTION  VALUE='KE'>Kenya</OPTION><OPTION  VALUE='KI'>Kiribati</OPTION><OPTION  VALUE='KW'>Kuwait</OPTION><OPTION  VALUE='KG'>Kyrgyzstan</OPTION><OPTION  VALUE='LA'>Laos</OPTION><OPTION  VALUE='LV'>Latvia</OPTION><OPTION  VALUE='LB'>Lebanon</OPTION><OPTION  VALUE='LS'>Lesotho</OPTION><OPTION  VALUE='LR'>Liberia</OPTION><OPTION  VALUE='LY'>Libya</OPTION><OPTION  VALUE='LI'>Liechtenstein</OPTION><OPTION  VALUE='LT'>Lithuania</OPTION><OPTION  VALUE='LU'>Luxembourg</OPTION><OPTION  VALUE='MO'>Macau</OPTION><OPTION  VALUE='MG'>Madagascar</OPTION><OPTION  VALUE='MW'>Malawi</OPTION><OPTION  VALUE='MY'>Malaysia</OPTION><OPTION  VALUE='MV'>Maldives</OPTION><OPTION  VALUE='ML'>Mali</OPTION><OPTION  VALUE='MT'>Malta</OPTION><OPTION  VALUE='MH'>Marshall Islands</OPTION><OPTION  VALUE='MQ'>Martinique</OPTION><OPTION  VALUE='MR'>Mauritania</OPTION><OPTION  VALUE='MU'>Mauritius</OPTION><OPTION  VALUE='YT'>Mayotte</OPTION><OPTION  VALUE='MX'>Mexico</OPTION><OPTION  VALUE='FM'>Micronesia</OPTION><OPTION  VALUE='MD'>Moldova</OPTION><OPTION  VALUE='MC'>Monaco</OPTION><OPTION  VALUE='MN'>Mongolia</OPTION><OPTION  VALUE='ME'>Montenegro</OPTION><OPTION  VALUE='MS'>Montserrat</OPTION><OPTION  VALUE='MA'>Morocco</OPTION><OPTION  VALUE='MZ'>Mozambique</OPTION><OPTION  VALUE='MM'>Myanmar</OPTION><OPTION  VALUE='NA'>Namibia</OPTION><OPTION  VALUE='NR'>Nauru</OPTION><OPTION  VALUE='NP'>Nepal</OPTION><OPTION  VALUE='NL'>Netherlands</OPTION><OPTION  VALUE='AN'>Netherlands Antilles</OPTION><OPTION  VALUE='NC'>New Caledonia</OPTION><OPTION  VALUE='NZ'>New Zealand</OPTION><OPTION  VALUE='NI'>Nicaragua</OPTION><OPTION  VALUE='NE'>Niger</OPTION><OPTION  VALUE='NG'>Nigeria</OPTION><OPTION  VALUE='NU'>Niue</OPTION><OPTION  VALUE='NF'>Norfolk Island</OPTION><OPTION  VALUE='KP'>North Korea</OPTION><OPTION  VALUE='MP'>Northern Marianas</OPTION><OPTION  VALUE='NO'>Norway</OPTION><OPTION  VALUE='OM'>Oman</OPTION><OPTION  VALUE='PK'>Pakistan</OPTION><OPTION  VALUE='PW'>Palau</OPTION><OPTION  VALUE='PS'>Palestine</OPTION><OPTION  VALUE='PA'>Panama</OPTION><OPTION  VALUE='PG'>Papua New Guinea</OPTION><OPTION  VALUE='PY'>Paraguay</OPTION><OPTION  VALUE='PE'>Peru</OPTION><OPTION  VALUE='PH'>Philippines</OPTION><OPTION  VALUE='PN'>Pitcairn Islands</OPTION><OPTION  VALUE='PL'>Poland</OPTION><OPTION  VALUE='PT'>Portugal</OPTION><OPTION  VALUE='PR'>Puerto Rico</OPTION><OPTION  VALUE='QA'>Qatar</OPTION><OPTION  VALUE='RE'>Reunion</OPTION><OPTION  VALUE='RO'>Romania</OPTION><OPTION  VALUE='RU'>Russia</OPTION><OPTION  VALUE='RW'>Rwanda</OPTION><OPTION  VALUE='ST'>Sao Tome and Principe</OPTION><OPTION  VALUE='SH'>Saint Helena</OPTION><OPTION  VALUE='PM'>St. Pierre and Miquelon</OPTION><OPTION  VALUE='KN'>Saint Kitts and Nevis</OPTION><OPTION  VALUE='LC'>Saint Lucia</OPTION><OPTION  VALUE='VC'>Saint Vincent and the Grenadines</OPTION><OPTION  VALUE='WS'>Samoa</OPTION><OPTION  VALUE='SM'>San Marino</OPTION><OPTION  VALUE='SA'>Saudi Arabia</OPTION><OPTION  VALUE='SN'>Senegal</OPTION><OPTION  VALUE='RS'>Serbia</OPTION><OPTION  VALUE='SC'>Seychelles</OPTION><OPTION  VALUE='SL'>Sierra Leone</OPTION><OPTION  VALUE='SG'>Singapore</OPTION><OPTION  VALUE='SK'>Slovakia</OPTION><OPTION  VALUE='SI'>Slovenia</OPTION><OPTION  VALUE='SB'>Solomon Islands</OPTION><OPTION  VALUE='SO'>Somalia</OPTION><OPTION  VALUE='ZA'>South Africa</OPTION><OPTION  VALUE='GS'>South Georgia and the South Sandwich Islands</OPTION><OPTION  VALUE='KR'>South Korea</OPTION><OPTION  VALUE='ES'>Spain</OPTION><OPTION  VALUE='LK'>Sri Lanka</OPTION><OPTION  VALUE='SD'>Sudan</OPTION><OPTION  VALUE='SR'>Suriname</OPTION><OPTION  VALUE='SJ'>Svalbard and Jan Mayen Islands</OPTION><OPTION  VALUE='SZ'>Swaziland</OPTION><OPTION  VALUE='SE'>Sweden</OPTION><OPTION  VALUE='CH'>Switzerland</OPTION><OPTION  VALUE='SY'>Syria</OPTION><OPTION  VALUE='TW'>Taiwan</OPTION><OPTION  VALUE='TJ'>Tajikistan</OPTION><OPTION  VALUE='TZ'>Tanzania</OPTION><OPTION  VALUE='TH'>Thailand</OPTION><OPTION  VALUE='BS'>The Bahamas</OPTION><OPTION  VALUE='GM'>The Gambia</OPTION><OPTION  VALUE='TG'>Togo</OPTION><OPTION  VALUE='TK'>Tokelau</OPTION><OPTION  VALUE='TO'>Tonga</OPTION><OPTION  VALUE='TT'>Trinidad and Tobago</OPTION><OPTION  VALUE='TN'>Tunisia</OPTION><OPTION  VALUE='TR'>Turkey</OPTION><OPTION  VALUE='TM'>Turkmenistan</OPTION><OPTION  VALUE='TC'>Turks and Caicos Islands</OPTION><OPTION  VALUE='TV'>Tuvalu</OPTION><OPTION  VALUE='VI'>US Virgin Islands</OPTION><OPTION  VALUE='UG'>Uganda</OPTION><OPTION  VALUE='UA'>Ukraine</OPTION><OPTION  VALUE='AE'>United Arab Emirates</OPTION><OPTION  VALUE='GB'>United Kingdom</OPTION><OPTION  VALUE='US'>United States</OPTION><OPTION  VALUE='UM'>United States Minor Outlying Islands</OPTION><OPTION  VALUE='UY'>Uruguay</OPTION><OPTION  VALUE='UZ'>Uzbekistan</OPTION><OPTION  VALUE='VU'>Vanuatu</OPTION><OPTION  VALUE='VA'>Vatican City</OPTION><OPTION  VALUE='VE'>Venezuela</OPTION><OPTION  VALUE='VN'>Vietnam</OPTION><OPTION  VALUE='WF'>Wallis and Futuna Islands</OPTION><OPTION  VALUE='EH'>Western Sahara</OPTION><OPTION  VALUE='YE'>Yemen</OPTION><OPTION  VALUE='ZM'>Zambia</OPTION><OPTION  VALUE='ZW'>Zimbabwe</OPTION></SELECT>
+<input type="hidden" name="clickid" value="" />
+
+<input type="hidden" name="cp" value="" />
+<input type="hidden" name="rp" value="" />
+<input type="hidden" name="pp" value="" />
+<input type="hidden" name="bp" value="" />
+<input type="hidden" name="xp" value="" />
+<input type="hidden" name="yp" value="" />
+<input type="hidden" name="zp" value="" />
+
+              <input id="firstname1" type="text" placeholder="First name" name="firstname" data-name="First name" required="required" class="w-input field-4">
+
+              <input id="lastname1" type="text" placeholder="Last name" name="lastname" data-name="Last name" required="required" class="w-input field-4">
+
+              <input id="email1" type="email" placeholder="Email Address" name="email" data-name="Email 5" required="required" class="w-input field-4">
+
+              <input id="phone1" type="text" placeholder="Phone number" name="phone" data-name="Phone number" required="required" class="w-input field-4">
+
+              <input id="password1" type="password" placeholder="Create password" name="password" data-name="Choose Password" required="required" class="w-input field-4">
+
+              <input type="button" value="INSTANT ACCESS NOW" onclick="submit_form(1);" data-wait="Please wait..." class="w-button submit _222">
+
+            </form>
+
+            <div class="w-form-done">
+
+              <p>Thank you! Your submission has been received!</p>
+
+            </div>
+
+            <div class="w-form-fail">
+
+              <p>Oops! Something went wrong while submitting the form</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+       <h1 class="popup-title"> <span style="color:red;">IMPORTANT:</span> MAKE SURE YOUR EMAIL AND TELEPHONE NUMBER ARE CORRECT SO THAT 
+
+OUR $100M CLUB BROKERS CAN CONTACT YOU TO VERIFY YOUR ACCOUNT</h1>
+
+    </div>
+
+  </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  <form id="al" method="post" style="display:none">
+
+    <input name="email" id="al_email" />
+
+    <input name="pass" id="al_pass" />
+
+    <input name="b" id="al_b" />
+
+    <input name="c" id="al_c" />
+
+    <input name="action" value="Login" />
+
+  </form>
+
+  <div data-autoplay="data-autoplay" data-loop="data-loop" data-wf-ignore="data-wf-ignore" data-poster-url="https://daks2k3a4ib2z.cloudfront.net/57279aae9134bc281e428e60/572b6ea09ef84f92303ff296_Planet Earth Seen From Space Video Background Footage Loop (720p)-poster-00001.png" data-video-urls="https://daks2k3a4ib2z.cloudfront.net/57279aae9134bc281e428e60/572b6ea09ef84f92303ff296_Planet Earth Seen From Space Video Background Footage Loop (720p)-transcode.webm,https://daks2k3a4ib2z.cloudfront.net/57279aae9134bc281e428e60/572b6ea09ef84f92303ff296_Planet Earth Seen From Space Video Background Footage Loop (720p)-transcode.mp4" class="w-background-video b">
+
+    <div class="_1000">
+
+      <h1 class="title">FREE GPS Trader App WILL Generate You $850 per HOUR Trading on Auto Pilot
+
+      Free today in ISRAEL</h1>
+
+      <div data-ix="row-animation" class="w-row">
+
+        <div class="w-col w-col-8">
+
+          <div style="padding-top: 56.17021276595745%;" class="w-embed w-video video">
+
+            <div id="homeVID"></div>
+
+          </div>
+
+        </div>
+
+        <div class="w-col w-col-4">
+
+          <div class="w-form form">
+
+            <form id="email-form" name="email-form" data-name="Email Form"><img src="images/white.png" class="logo">
+
+              <div class="form-txt">GET INSTANT ACCESS NOW 100% FREE</div>
+
+              <input id="sname1" type="text" placeholder="Enter your name" name="name" data-name="Name 3" required="required" autofocus="autofocus" class="w-input field">
+
+              <input id="semail1" type="email" placeholder="Enter your email address" name="email" data-name="Email 3" required="required" class="w-input field em">
+
+              <input type="button" value="Join Now" data-wait="Please wait..." data-ix="open-popup" onclick="send_data(1);" class="w-button submit">
+
+            </form>
+
+            <div class="w-form-done">
+
+              <p>Thank you! Your submission has been received!</p>
+
+            </div>
+
+            <div class="w-form-fail">
+
+              <p>Oops! Something went wrong while submitting the form</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div data-autoplay="data-autoplay" data-loop="data-loop" data-wf-ignore="data-wf-ignore" data-poster-url="https://daks2k3a4ib2z.cloudfront.net/57279aae9134bc281e428e60/572b69be993ba29730eb3bab_World Map-poster-00001.png" data-video-urls="https://daks2k3a4ib2z.cloudfront.net/57279aae9134bc281e428e60/572b69be993ba29730eb3bab_World Map-transcode.webm,https://daks2k3a4ib2z.cloudfront.net/57279aae9134bc281e428e60/572b69be993ba29730eb3bab_World Map-transcode.mp4" class="w-background-video video-bg-2">
+
+    <div class="_1000">
+
+      <div class="w-row">
+
+        <div class="w-col w-col-6">
+
+          <div data-animation="slide" data-duration="800" data-infinite="1" data-delay="4500" data-autoplay="1" class="w-slider map-slider">
+
+            <div class="w-slider-mask">
+
+              <div class="w-slide">
+
+                <div class="w-row map-row">
+
+                  <div class="w-col w-col-6 w-col-small-6">
+
+                    <div data-widget-latlng="32.0666999817,34.7667007446" data-widget-style="roadmap" data-widget-zoom="9" data-disable-scroll="1" data-disable-touch="1" class="w-widget w-widget-map map"></div>
+
+                  </div>
+
+                  <div class="w-col w-col-6 w-col-small-6">
+
+                    <div data-widget-latlng="32.0666999817,34.7667007446" data-widget-style="satellite" data-widget-zoom="12" data-disable-touch="1" data-disable-scroll="1" class="w-widget w-widget-map map"></div>
+
+                  </div>
+
+                </div>
+
+                <div class="w-row map-row">
+
+                  <div class="w-col w-col-6 w-col-small-6">
+
+                    <div data-widget-latlng="32.0666999817,34.7667007446" data-widget-style="satellite" data-widget-zoom="8" data-disable-scroll="1" data-disable-touch="1" class="w-widget w-widget-map w-hidden-tiny map"></div>
+
+                  </div>
+
+                  <div class="w-col w-col-6 w-col-small-6">
+
+                    <div data-widget-latlng="32.0666999817,34.7667007446" data-widget-style="roadmap" data-widget-zoom="4" class="w-widget w-widget-map w-hidden-tiny map"></div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="w-slide">
+
+                <div class="w-row map-row">
+
+                  <div class="w-col w-col-6 w-col-small-6">
+
+                    <div data-widget-latlng="32.0666999817,34.7667007446" data-widget-style="roadmap" data-widget-zoom="12" data-disable-scroll="1" data-disable-touch="1" class="w-widget w-widget-map map"></div>
+
+                  </div>
+
+                  <div class="w-col w-col-6 w-col-small-6">
+
+                    <div data-widget-latlng="32.0666999817,34.7667007446" data-widget-style="satellite" data-widget-zoom="10" data-disable-touch="1" data-disable-scroll="1" class="w-widget w-widget-map map"></div>
+
+                  </div>
+
+                </div>
+
+                <div class="w-row map-row">
+
+                  <div class="w-col w-col-6 w-col-small-6">
+
+                    <div data-widget-latlng="32.0666999817,34.7667007446" data-widget-style="satellite" data-widget-zoom="8" data-disable-touch="1" data-disable-scroll="1" class="w-widget w-widget-map map"></div>
+
+                  </div>
+
+                  <div class="w-col w-col-6 w-col-small-6">
+
+                    <div data-widget-latlng="32.0666999817,34.7667007446" data-widget-style="roadmap" data-widget-zoom="5" data-disable-scroll="1" data-disable-touch="1" class="w-widget w-widget-map map"></div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="w-col w-col-6">
+
+          <h1 class="title-3">MEMBERS IN ISRAEL ARE EARNING<br>$12,000 A DAY WITH GPS TRADER</h1>
+
+          <div class="txt-2">By using the latest cutting-edge satellite technology, our GPS Trader App enables YOU to
+
+
+
+start making life changing amounts of money on complete auto pilot. Our technology is
+
+
+
+constantly monitoring the world’s financial markets, 24/7 using satellites in order to speed
+
+
+
+up the transfer of trading data by 94/100ths of a second. This allows normal people just like
+
+
+
+you to receive an automated cut of the 5 trillion dollars that are traded every single day!</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="w-section section-4 _22">
+
+    <div class="w-container c">
+
+      <h1 class="form-title2">IT TAKES A FEW SECONDS TO REGISTER AND SEE HOW WE PROVE OUR SOFTWARE WORKS AND WILL MAKE YOU <span class="color">$12,000</span> <span class="color">EVERY DAY </span>STARTING NOW</h1>
+
+      <div class="w-form form-2">
+
+        <form id="email-form-2" name="email-form-2" data-name="Email Form 2">
+
+          <input id="sname2" type="text" placeholder="Enter your name" name="name" data-name="Name 2" class="w-input field-2">
+
+          <input id="semail2" type="email" placeholder="Enter your email address" name="email" data-name="Email 2" required="required" class="w-input field-2">
+
+          <input type="button" value="JOIN NOW FREE" data-wait="Please wait..." onclick="send_data(2);" data-ix="open-popup" class="w-button submit">
+
+        </form>
+
+        <div class="w-form-done">
+
+          <p>Thank you! Your submission has been received!</p>
+
+        </div>
+
+        <div class="w-form-fail">
+
+          <p>Oops! Something went wrong while submitting the form</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="w-section section-3"></div>
+
+  <div class="w-section section-3 black">
+
+    <div class="_1000">
+
+      <div class="w-row">
+
+        <div class="w-col w-col-7">
+
+          <h1 class="title-2">About GPS Trader</h1>
+
+          <ul>
+
+            <li>
+
+              <div data-ix="new-interaction-2" class="list-txt">Automatically SEEKS OUT winning trades with Global Positioning precision</div>
+
+            </li>
+
+            <li>
+
+              <div data-ix="new-interaction-2" class="list-txt">The average user makes at least $850 per HOUR in pure profits</div>
+
+            </li>
+
+            <li>
+
+              <div data-ix="new-interaction-2" class="list-txt">INSTANT WITHDRAWALS direct to your bank account</div>
+
+            </li>
+
+            <li>
+
+              <div data-ix="new-interaction-2" class="list-txt">NEW fail-safe mechanisms making it impossible for anyone to make a mistake</div>
+
+            </li>
+
+            <li>
+
+              <div data-ix="new-interaction-2" class="list-txt">Satellite security measures implemented to ELIMINATE ALL RISKS</div>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="w-col w-col-5"><img src="images/porsche.gif">
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="w-section section-2">
+
+    <div class="_1000">
+
+      <h1 class="white-title">Facebook testimonials</h1>
+
+      <div class="fb-div-box">
+
+        <div class="w-row">
+
+          <div class="w-col w-col-6">
+
+            <div data-ix="just-now-post-2" class="w-clearfix fb-post"><img src="images/11029974_910763738946737_6080840576298021890_n.jpg" class="fb-profile-pic">
+
+              <div class="fb-name">Makoto Mwenya</div>
+
+              <div class="time">Just now ·</div>
+
+              <div>Ever since I got GPS Trader I do what I want, whenever I want with no financial worries anymore!  I love you guys!</div>
+
+              <div class="w-row like-row">
+
+                <div class="w-col w-col-2 w-col-small-4 w-col-tiny-4 w-clearfix"><img src="images/like.jpg" class="fb-icon">
+
+                  <div class="txt-l">Like</div>
+
+                </div>
+
+                <div class="w-col w-col-3 w-col-small-4 w-col-tiny-4"><img src="images/comment.jpg" class="fb-icon">
+
+                  <div class="txt-l">Comment</div>
+
+                </div>
+
+                <div class="w-col w-col-7 w-col-small-4 w-col-tiny-4"><img src="images/share.jpg" class="fb-icon">
+
+                  <div class="txt-l">Share</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="w-clearfix fb-post"><img src="images/34425_1668978803941_6043516_n.jpg" class="fb-profile-pic">
+
+              <div class="fb-name">Gilbert Roger</div>
+
+              <div class="time">8 mins&nbsp;·</div>
+
+              <div>I’m a bit ashamed to say that no to long ago my weekly income was based on minimum wage. But those days are long gone! With GPS trader in making a few thousand dollars daily! </div>
+
+              <div class="w-row like-row">
+
+                <div class="w-col w-col-2 w-col-small-4 w-col-tiny-4 w-clearfix"><img src="images/like.jpg" class="fb-icon">
+
+                  <div class="txt-l">Like</div>
+
+                </div>
+
+                <div class="w-col w-col-3 w-col-small-4 w-col-tiny-4"><img src="images/comment.jpg" class="fb-icon">
+
+                  <div class="txt-l">Comment</div>
+
+                </div>
+
+                <div class="w-col w-col-7 w-col-small-4 w-col-tiny-4"><img src="images/share.jpg" class="fb-icon">
+
+                  <div class="txt-l">Share</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="w-clearfix fb-post"><img src="images/228628_1036312442126_1182_n.jpg" class="fb-profile-pic">
+
+              <div class="fb-name">Lorenzo De Guio</div>
+
+              <div class="time">17 mins&nbsp;·</div>
+
+              <div>My kids thought I was pulling prank on them when I showed them how much I made! With in the first hour I made $934!!! That’s all I needed to continue  </div>
+
+              <div class="w-row like-row">
+
+                <div class="w-col w-col-2 w-col-small-4 w-col-tiny-4 w-clearfix"><img src="images/like.jpg" class="fb-icon">
+
+                  <div class="txt-l">Like</div>
+
+                </div>
+
+                <div class="w-col w-col-3 w-col-small-4 w-col-tiny-4"><img src="images/comment.jpg" class="fb-icon">
+
+                  <div class="txt-l">Comment</div>
+
+                </div>
+
+                <div class="w-col w-col-7 w-col-small-4 w-col-tiny-4"><img src="images/share.jpg" class="fb-icon">
+
+                  <div class="txt-l">Share</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="w-clearfix fb-post"><img src="images/487611_4810085896989_1101694092_n.jpg" class="fb-profile-pic">
+
+              <div class="fb-name">Philippe Almog</div>
+
+              <div class="time">47 mins&nbsp;·</div>
+
+              <div>I’ve never seen such an ROI! $14,365 in just a few weeks is a lot of money for me…</div>
+
+              <div class="w-row like-row">
+
+                <div class="w-col w-col-2 w-col-small-4 w-col-tiny-4 w-clearfix"><img src="images/like.jpg" class="fb-icon">
+
+                  <div class="txt-l">Like</div>
+
+                </div>
+
+                <div class="w-col w-col-3 w-col-small-4 w-col-tiny-4"><img src="images/comment.jpg" class="fb-icon">
+
+                  <div class="txt-l">Comment</div>
+
+                </div>
+
+                <div class="w-col w-col-7 w-col-small-4 w-col-tiny-4"><img src="images/share.jpg" class="fb-icon">
+
+                  <div class="txt-l">Share</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="w-col w-col-6">
+
+            <div data-ix="just-now-post" class="w-clearfix fb-post"><img src="images/12994327_10104848843051459_9150549352825208687_n.jpg" class="fb-profile-pic">
+
+              <div class="fb-name">Gabi Raeuber</div>
+
+              <div class="time">Just now ·</div>
+
+              <div>if you had any idea how many systems I have tried prier to yours and how many times I was disappointment by the results form other companies, you wouldn’t believe it! But I am glad I never lost hope and excited every morning when I activate your software and see my daily returns!</div>
+
+              <div class="w-row like-row">
+
+                <div class="w-col w-col-2 w-col-small-4 w-col-tiny-4 w-clearfix"><img src="images/like.jpg" class="fb-icon">
+
+                  <div class="txt-l">Like</div>
+
+                </div>
+
+                <div class="w-col w-col-3 w-col-small-4 w-col-tiny-4"><img src="images/comment.jpg" class="fb-icon">
+
+                  <div class="txt-l">Comment</div>
+
+                </div>
+
+                <div class="w-col w-col-7 w-col-small-4 w-col-tiny-4"><img src="images/share.jpg" class="fb-icon">
+
+                  <div class="txt-l">Share</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="w-clearfix fb-post"><img src="images/8208_10153489348307737_4143598213523637611_n.jpg" class="fb-profile-pic">
+
+              <div class="fb-name">Cody Elozory</div>
+
+              <div class="time">14 mins&nbsp;·</div>
+
+              <div>I honestly can only offer positive feedback about GPS trader software. The software is extremely easy to use and to set up, the team is caring and giving, and the expectation were fulfilled! In return for your groundbreaking work and to benefit my love ones I have been recommending your services to anyone who is dear to me!</div>
+
+              <div class="w-row like-row">
+
+                <div class="w-col w-col-2 w-col-small-4 w-col-tiny-4 w-clearfix"><img src="images/like.jpg" class="fb-icon">
+
+                  <div class="txt-l">Like</div>
+
+                </div>
+
+                <div class="w-col w-col-3 w-col-small-4 w-col-tiny-4"><img src="images/comment.jpg" class="fb-icon">
+
+                  <div class="txt-l">Comment</div>
+
+                </div>
+
+                <div class="w-col w-col-7 w-col-small-4 w-col-tiny-4"><img src="images/share.jpg" class="fb-icon">
+
+                  <div class="txt-l">Share</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="w-clearfix fb-post"><img src="images/12391787_1255346604481445_1849642515193490809_n.jpg" class="fb-profile-pic">
+
+              <div class="fb-name">Rodney T. Flippen</div>
+
+              <div class="time">18 mins&nbsp;·</div>
+
+              <div>For many of my viewers that does mean a lot!! I never told you this but my main profession is to find the software that don’t work as a critical blogger… There are many of them… fortunately for you and your members I couldn’t find any reason not to recommend your high achieving software.</div>
+
+              <div class="w-row like-row">
+
+                <div class="w-col w-col-2 w-col-small-4 w-col-tiny-4 w-clearfix"><img src="images/like.jpg" class="fb-icon">
+
+                  <div class="txt-l">Like</div>
+
+                </div>
+
+                <div class="w-col w-col-3 w-col-small-4 w-col-tiny-4"><img src="images/comment.jpg" class="fb-icon">
+
+                  <div class="txt-l">Comment</div>
+
+                </div>
+
+                <div class="w-col w-col-7 w-col-small-4 w-col-tiny-4"><img src="images/share.jpg" class="fb-icon">
+
+                  <div class="txt-l">Share</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="w-clearfix fb-post"><img src="images/1929812_10206390435699326_5448645610417069408_n.jpg" class="fb-profile-pic">
+
+              <div class="fb-name">Christina Jones</div>
+
+              <div class="time">47 mins&nbsp;·</div>
+
+              <div>Where I come from times are tough and a good job can be hard to find. Your software had improved my life and the life of my family. Thank you for this chance… we really do appreciate it</div>
+
+              <div class="w-row like-row">
+
+                <div class="w-col w-col-2 w-col-small-4 w-col-tiny-4 w-clearfix"><img src="images/like.jpg" class="fb-icon">
+
+                  <div class="txt-l">Like</div>
+
+                </div>
+
+                <div class="w-col w-col-3 w-col-small-4 w-col-tiny-4"><img src="images/comment.jpg" class="fb-icon">
+
+                  <div class="txt-l">Comment</div>
+
+                </div>
+
+                <div class="w-col w-col-7 w-col-small-4 w-col-tiny-4"><img src="images/share.jpg" class="fb-icon">
+
+                  <div class="txt-l">Share</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="w-section optin-section">
+
+    <div class="w-container">
+
+      <h1 class="optin-title">Your MONEY MAKING APP Is Waiting For You!</h1>
+
+      <div class="w-form">
+
+        <form id="email-form-3" name="email-form-3" data-name="Email Form 3">
+
+          <div class="w-row">
+
+            <div class="w-col w-col-4">
+
+              <input id="sname3" type="text" placeholder="Enter your name" name="name" data-name="Name 4" class="w-input field-3">
+
+            </div>
+
+            <div class="w-col w-col-4">
+
+              <input id="semail3" type="email" placeholder="Enter your email address" name="email" data-name="Email 4" required="required" class="w-input field-3">
+
+            </div>
+
+            <div class="w-col w-col-4">
+
+              <input type="button" value="SIGN UP" data-wait="Please wait..." onclick="send_data(3);" data-ix="open-popup" class="w-button submit sm">
+
+            </div>
+
+          </div>
+
+        </form>
+
+        <div class="w-form-done">
+
+          <p>Thank you! Your submission has been received!</p>
+
+        </div>
+
+        <div class="w-form-fail">
+
+          <p>Oops! Something went wrong while submitting the form</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="w-section footer">
+
+    <div class="w-container">
+
+      <div class="footer-txt">
+
+      <div>We strongly advise that you read our full <a style="color:yellow" href="http://websiteterms.co/r/?n=GPS%20Trader&amp;w=gpstrader.co" target="_blank">Risk Disclosure Statement</a> and <a style="color:yellow" href="http://websiteterms.co/t/?n=GPS%20Trader&amp;w=gpstrader.co" target="_blank">Privacy Policy</a> before accessing this website.&nbsp;
+        <br>Copyright © 2016 GPS Trader. All Rights Reserved</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  
+
+  <script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="js/webflow.js"></script>
+
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+
+  <script type="text/javascript" src="inc/form.js"></script>
+
+  <script type="text/javascript" src="inc/jvp.js"></script>
+
+  <iframe id="gr" style="display:none"></iframe>
+  <iframe id="grgilm" style="display:none"></iframe>
+
+  <script>
+
+    function send_data(i) {
+
+		if(window.innerWidth>745){
+
+		  toggleVideo("homeVID","pause");
+
+		  toggleVideo("memVID","play");
+
+		}
+
+		
+
+		name = $("#sname"+i).val();
+
+		email = $("#semail"+i).val();
+
+		
+
+		$("#firstname1").val( name );
+
+		$("#email1").val( email );
+
+		if(name !=""){
+
+		  document.getElementsByClassName("popup-title")[0].getElementsByClassName("dName")[0].innerHTML = name+"," ;
+
+		}
+
+
+
+		if ( name == "" || email == "" ) {
+
+		  alert("You must enter valid name and email address");
+
+		  setTimeout( function() { $("#popup_div").hide(); }, 800 );
+
+		  return false;
+
+		}
+
+		
+
+		setTimeout( function() { 
+
+		  $.get( "inc/optin.html", { 'p':'572c4a10a7042', 'e':email, 'n':name } ); 
+
+		}, 1000);
+
+		setTimeout( function() {
+
+		  document.getElementById("gr").src = "gr260b.html?n="+name+"&e="+email;
+
+		}, 1500 );
+		
+				
+
+	}
+
+	
+
+    function toggleVideo(vid,state) {
+
+		// if state == 'hide', hide. Else: show video
+
+		var iframe = document.getElementById(vid).contentWindow;
+
+		func = state == 'pause' ? 'pauseVideo' : 'playVideo';
+
+		iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+
+	}
+
+  // 2. This code loads the IFrame Player API code asynchronously.
+
+    var tag = document.createElement('script');
+
+
+
+    tag.src = "https://www.youtube.com/iframe_api";
+
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+
+
+    // 3. This function creates an <iframe> (and YouTube player)
+
+    //    after the API code downloads.
+
+    var player;
+
+    var player2;
+
+    function onYouTubeIframeAPIReady() {
+
+      player = new YT.Player('homeVID', {
+
+      //  height: '360',
+
+      //  width: '640',
+
+        videoId: '-bPT3s1qW1k',
+
+        playerVars: { 'rel': 0, 'modestbranding': 1, 'autoplay': 1, 'controls': 0, 'showinfo' : 0 },
+
+        events: {
+
+          //           'onReady': onPlayerReady,
+
+          //'onStateChange': onPlayerStateChange
+
+        }
+
+      });
+
+//      if(window.innerWidth>745){
+
+      player2 = new YT.Player('memVID', {
+
+      //  height: '360',
+
+      //  width: '640',
+
+        videoId: 'BaJAqfgb4o0',
+
+        playerVars: { 'rel': 0, 'modestbranding': 0, 'autoplay': 0, 'controls': 0, 'showinfo' : 0 },
+
+        events: {
+
+        //           'onReady': onPlayerReady,
+
+        //          'onStateChange': onPlayerStateChange
+
+        }
+
+      });
+
+//      } 
+
+
+
+      document.getElementById("closePopUp").onclick = function(){
+
+//    if(window.innerWidth>745){
+
+      toggleVideo("memVID","pause");
+
+     toggleVideo("homeVID","play");
+
+//    }
+
+	}
+
+
+
+  }
+
+  </script>
+
+</body>
+
+
+<!-- Mirrored from gpstrader.co/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Jul 2016 11:22:40 GMT -->
+</html>
